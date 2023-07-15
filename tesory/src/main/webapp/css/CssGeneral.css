@@ -1,0 +1,176 @@
+@charset "ISO-8859-1";
+
+
+.anuncio{
+	background-color: #b7f3ff;
+    padding: 1.3em;
+}
+.info-anunce{
+	font-size: 1.2em;
+    font-weight: 700;
+}
+body{
+	margin: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+.father{
+    padding: 0 7.25%;
+}
+h1{
+	margin-left: 1.5em;
+	font-family: 'Alfa Slab One', cursive;
+}
+.logo{
+	    margin-left: -2em;
+	    width: 8em;
+}
+.wrapper{
+	overflow: hidden;
+
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size: 1.2em;
+    font-weight: 700;
+}
+a:hover{
+	text-decoration:none;
+	color:black;
+	opacity: .6;
+}
+.navbar{
+	    justify-content: space-around;
+	margin-left: -13em
+}
+.nav-child-icon{
+	font-size: 2em;
+	padding: 0.5em;
+}
+
+.banner{
+	
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	background-clip: border-box;
+	background-image: linear-gradient(rgb(223 223 223 / 13%), rgb(58 58 58 / 41%)), url(../images/TesoryToyBanner.jpg);
+	width:auto;
+	margin-bottom: 5em;
+	
+}
+.text-banner{
+
+    object-fit:cover;
+    background-color: #00000029;
+}
+.text-banner p{
+	    font-size: 3em;
+    	font-weight: 700;
+    	padding: 5em;
+    	color: white;
+    	text-shadow: #000000 10px 0 10px;
+}
+.text-shadow{
+	
+	
+}
+.info-card{
+
+
+}
+.text-publicity{
+	text-align: center;
+
+}
+.text-publicity span{
+	font-size: 2em;
+    font-weight: 900;
+}
+.group-card{
+	margin:2em;
+	justify-content: center;
+}
+.card{
+    margin: 2em;
+    background-color: #e0fff8;
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+}
+.card-img-top{
+	
+}
+.img2{
+	display:block;
+	width: 17em;
+    height: 16.6em;
+	background-image: url(../images/setArcoiris.jpg);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+        transition: .5s;
+}
+.img2:hover{
+	background-image: url(../images/setArcoirisOn.jpg);
+	    transition: .5s;
+}
+.btn{
+background-color: #27dbff;
+	    padding: 0.5em 1em;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 4em;
+    transition: 0.5s;
+    border: 5px solid white ;
+   	color: black;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.btn:hover{
+	border: 5px solid #00ffdcf0;
+	opacity: 1;
+    color: #000;
+    background-color: #6bfbe7f0;;
+}
+.footer{
+		margin-top:5em;
+	    background-color: #b7f3ff;
+}
+.father.footer div {
+    padding: 1.5em;
+}
+.father.footer div div h3 {
+    font-size:2.5em;
+}
+.father.footer div div h4 {
+        font-size: 1.5em;
+}
+.father.footer div p {
+        font-size: 2em;
+		font-weight: 500;
+
+}
+.icon-whatsApp{
+    background-image: url(../images/wa-icon.svg);
+    -webkit-mask-size: cover;
+    -webkit-mask-position: center;
+    background-repeat: no-repeat;
+ 	 padding: 1.3em;
+    background-size: 100% 100%;
+
+}
+.icon-about{
+	display: flex;
+	bottom: 20px;
+    right: 20px;
+    z-index: 99999 !important;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-color: #25ca54;
+    border-radius: 100%;
+	width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
